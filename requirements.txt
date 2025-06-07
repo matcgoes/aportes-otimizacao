@@ -4,3 +4,4 @@ pulp
 seaborn
 matplotlib
 yfinance
+requests
