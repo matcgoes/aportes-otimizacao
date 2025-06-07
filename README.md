@@ -42,16 +42,16 @@ Para isso, temos uma função otimizada que é a redução do déficit ou gap re
   
   ![Objetivo PO](./images/formula_restricoes.svg)
 
-- RF/RV: Ativo de Renda Fixa ou Renda Variável;
-- A: valor do aporte do mês;
-- pi: Preço do ativo i;
-- di: Déficit do ativo i;
-- qiRF: Quantidade a comprar do ativo i RF;
-- qiRV: Quantidade a comprar do ativo i RV;
-- gi: Gap residual do ativo i
+  - RF/RV: Ativo de Renda Fixa ou Renda Variável;
+  - A: valor do aporte do mês;
+  - pi: Preço do ativo i;
+  - di: Déficit do ativo i;
+  - qiRF: Quantidade a comprar do ativo i RF;
+  - qiRV: Quantidade a comprar do ativo i RV;
+  - gi: Gap residual do ativo i
 
-  - Quanto menor o gap (gi), mais perto o ativo fica de seu % ideal;
-  - Ativos de RV só aceitam quantidades inteiras, enquanto de RF permitem contínuos.
+    - Quanto menor o gap (gi), mais perto o ativo fica de seu % ideal;
+    - Ativos de RV só aceitam quantidades inteiras, enquanto de RF permitem contínuos.
 
 
 ## 3. Simulação Backtest
