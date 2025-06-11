@@ -15,7 +15,7 @@
 
 ## 1. Objetivo
 
-Este estudo parte de **uma carteira já montada** e cada ativo possui um peso-alvo
+Este estudo parte de **uma carteira fictícia já montada** e cada ativo possui um peso-alvo
 definido. O desafio é descobrir como atingir o percentual ideal de cada ativo da forma mais inteligente possível utilizando estratégias diferentes.
 
 ## 2. Estratégias
