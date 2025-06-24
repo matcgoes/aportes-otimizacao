@@ -139,7 +139,7 @@ Como forma de comparar as estratégias previamente definidas, foi realizado um *
 
 ## 4. Conclusão
 
-A Pesquisa Operacional (PO) se destacou como a **vencedora em termos de convergência** para os pesos-alvo do portfólio. Ela é mais eficiente em direcionar aportes para corrigir desvios, resultando em menor déficit e volatilidade.
+A **Pesquisa Operacional (PO)** se destacou como a **vencedora em termos de convergência** para os pesos-alvo do portfólio. Ela é mais eficiente em direcionar aportes para corrigir desvios, resultando em menor déficit e volatilidade.
 
 Por outro lado, a estratégia de **Balanceamento por Déficit Proporcional** gerou uma **rentabilidade mais vantajosa** no cenário simulado. Isso se deveu à sua consistência nos aportes, especialmente em Renda Fixa.
 

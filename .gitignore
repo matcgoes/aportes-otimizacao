@@ -29,6 +29,7 @@ MANIFEST
 # Files
 **/portfolio_*.xlsx
 **/portfolio_*.csv
+**/99_*.ipynb
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
