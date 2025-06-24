@@ -16,6 +16,7 @@
       - [3.3.3 Proporção por Subclasses](#333-proporção-por-subclasses)
       - [3.3.4 Eficiência dos Aportes](#334-eficiência-dos-aportes)
       - [3.3.5 Evolução da Carteira e Rentabilidade](#335-evolução-da-carteira-e-rentabilidade)
+      - [3.3.6 E se tivéssemos diversificação mínima na Pesquisa Operacional?](#336-e-se-tivéssemos-diversificação-mínima-na-pesquisa-operacional)
   - [4. Conclusão](#4-conclusão)
 
 
@@ -124,6 +125,35 @@ Como forma de comparar as estratégias previamente definidas, foi realizado um *
 
 **Trade-off:** diversificar e pulverizar exige mais operações, mas, em cenário de Selic alta + bolsa em alta moderada, entregou melhor rentabilidade que a estratégia de correção pontual via PO.
 
+  #### 3.3.6 E se tivéssemos diversificação mínima na Pesquisa Operacional?
+
+  - Aqui, vamos utilizar um parâmetro **k_min** de diversificação que corresponde à quantidade mínima de ativos a se aportar. Com isso, é possível buscarmos rentabilidade maiores e convergência do portfólio em menor quantidade de tempo.
+
+  - Vamos seguir utilizando aporte de $ 2.500 e *backtest* de simulação par 24 meses. Para isso, a ideia é iterar para cada "k_min" definido e analisar os resultados
+  
+  ![PO_com_kin](./images/po_com_kmin.png)
+
+  - Em termos de convergência, um valor de k_min = 5 é considerado ideal pois com baixa pulverização é possível atingir o equilíbrio no mesmo intervalo de tempo com níveis pulverizados de aportes, ou seja, valores de 'k' maiores.
+  - Quanto à eficiência global, um k_min = 5 apresenta-se menos eficiente, porém em níveis parecidos quando comparado aos demais valores de 'k'.
+  - Idem para rentabilidade
 
 ## 4. Conclusão
 
+A Pesquisa Operacional (PO) se destacou como a **vencedora em termos de convergência** para os pesos-alvo do portfólio. Ela é mais eficiente em direcionar aportes para corrigir desvios, resultando em menor déficit e volatilidade.
+
+Por outro lado, a estratégia de **Balanceamento por Déficit Proporcional** gerou uma **rentabilidade mais vantajosa** no cenário simulado. Isso se deveu à sua consistência nos aportes, especialmente em Renda Fixa.
+
+Como o foco deste estudo é manter o portfólio alinhado aos pesos-alvo, a Pesquisa Operacional é a melhor escolha por cumprir o objetivo central com maior eficiência e velocidade.
+
+| **Critério** | **Pesquisa Operacional** | **Balanceamento** | **Vencedor** |
+|--------------|--------------------------|-------------------|--------------|
+| **Convergência para Pesos-Alvo** | ✅ Melhor | ❌ Inferior | **PO** |
+| **Déficit Médio** | ✅ Menor | ❌ Maior | **PO** |
+| **Volatilidade do Déficit** | ✅ Menor | ❌ Maior | **PO** |
+| **Eficiência (Δ déficit/R$)** | ✅ Maior | ❌ Menor | **PO** |
+| **Velocidade de Correção** | ✅ Mais rápida | ❌ Mais lenta | **PO** |
+| **Complexidade no Aporte** | ✅ Menor | ❌ Maior | **PO** |
+| **Rentabilidade Absoluta** | ❌ Menor | ✅ Maior | **Balanceamento** |
+| **Diversificação Temporal** | ❌ Menor | ✅ Maior | **Balanceamento** |
+
+Obrigado pela atenção e por chegar até aqui! 🙏📊
