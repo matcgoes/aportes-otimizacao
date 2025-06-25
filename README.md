@@ -1,5 +1,20 @@
 # Otimização de Aportes
 
+![Banner](./images/banner_v3.png)
+
+
+Projeto *end-to-end* de Ciência de Dados que utiliza Python e dados financeiros com o objetivo de otimizar a alocação de portfólio por meio de programação linear e técnicas de rebalanceamento. As análises visuais foram realizadas com bibliotecas como Pandas, NumPy, Matplotlib e Seaborn.
+
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C?style=flat&logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Statistical_Plots-4C8CBF?style=flat&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
+[![PuLP](https://img.shields.io/badge/PuLP-Linear_Programming-003366?style=flat)](https://coin-or.github.io/pulp/)
+[![YFinance](https://img.shields.io/badge/yfinance-Financial_Data-282C34?style=flat)](https://pypi.org/project/yfinance/)
+[![Requests](https://img.shields.io/badge/Requests-HTTP_Client-20232A?style=flat&logo=python&logoColor=white)](https://docs.python-requests.org/)
+
 # Tabela de Conteúdo
 - [Otimização de Aportes](#otimização-de-aportes)
 - [Tabela de Conteúdo](#tabela-de-conteúdo)
@@ -115,7 +130,7 @@ Como forma de comparar as estratégias previamente definidas, foi realizado um *
   
   ![Eficiencia](./images/eficiencia_v0.png)
 
-  - preencher conculusao
+  - A abordagem por Balanceamento mostrou-se eficiente em aprox. 25% dos meses, ou seja, onde a eficiência foi positiva. Já para a Pesquisa Operacional, este nível chegou ao patamar de 42% dos meses, mostrando-se um pouco mais vantajosa.
    
   #### 3.3.5 Evolução da Carteira e Rentabilidade
   ![Evolucao](./images/evolucao_rent_v0.png)
