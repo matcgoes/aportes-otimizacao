@@ -9,8 +9,8 @@ from src.utils import create_output_directory, load_position, save_dataframe_to_
 from src import allocate
 
 BACKTEST = True
-VALOR_APORTE = 2500
-K_MIN = None
+VALOR_APORTE = 5000
+K_MIN = 4
 
 third_party_loggers = ['yfinance', 'requests', 'urllib3', 'peewee', 'pulp']
 
@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     if BACKTEST:
         sim     = PortfolioSimulator(df_port, valor_aporte_mensal=VALOR_APORTE, k_min_po=K_MIN)        
-        df_out  = sim.simular(meses=24, data_fim_str='2025-05-01')
+        df_out  = sim.simular(meses=24, data_fim_str='2025-04-01')
         save_dataframe_to_csv(df_out, 'backtest_results', out_dir)
         df_aportes = sim.obter_df_aportes()
         save_dataframe_to_csv(df_aportes, 'allocation_history', out_dir)
