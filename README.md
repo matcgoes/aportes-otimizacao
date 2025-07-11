@@ -5,7 +5,7 @@
 
 Projeto *end-to-end* de Ciência de Dados que utiliza Python e dados financeiros com o objetivo de otimizar a alocação de portfólio por meio de pesquisa operacional (programação linear) e técnicas de rebalanceamento. As análises visuais foram realizadas com bibliotecas como Pandas, NumPy, Matplotlib e Seaborn.
 
-[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-Numerical-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
