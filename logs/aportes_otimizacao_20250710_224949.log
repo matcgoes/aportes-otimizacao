@@ -1,0 +1,199 @@
+2025-07-10 22:49:49 - src.logger - INFO - setup_logger:82 - Logging system initialized. Log directory: C:\Users\matcg\Documents\GitHub\aportes-otimizacao\logs
+2025-07-10 22:49:49 - src.logger - INFO - setup_logger:84 - Log file: C:\Users\matcg\Documents\GitHub\aportes-otimizacao\logs\aportes_otimizacao_20250710_224949.log
+2025-07-10 22:49:49 - src.allocate - INFO - otimiza_aporte:131 - Optimizing Allocation...
+2025-07-10 22:49:49 - src.allocate - INFO - aporte_inicial:10 - Initial Assets has been started...
+2025-07-10 22:49:49 - src.allocate - INFO - aporte_inicial:56 - Initial Assets calculation completed successfully
+2025-07-10 22:49:49 - src.allocate - INFO - calcula_sobra:62 - Computing remaining values...
+2025-07-10 22:49:49 - src.allocate - INFO - calcula_sobra:72 - Final remaining value calculated: R$ 1,116.70
+2025-07-10 22:49:49 - src.allocate - INFO - otimiza_aporte:159 - Optimization completed after 30 iterations
+2025-07-10 22:49:49 - src.allocate - INFO - exibir_resultado_formatado:167 - Displaying Rebalancing results for final user
+2025-07-10 22:49:49 - src.allocate - INFO - exibir_resultado_formatado:199 - Remaining R$ 1,116.70 will go to SELIC
+2025-07-10 22:49:49 - src.allocate - INFO - exibir_resultado_formatado:201 - Rebalancing results displayed successfully
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:407 - Starting Linear Programming optimization...
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:425 - Creating LP problem...
+2025-07-10 22:49:49 - src.allocate - INFO - criar_variaveis_lp:209 - Creating variables for Linear Programming Operation
+2025-07-10 22:49:49 - src.allocate - INFO - criar_variaveis_lp:238 - LP variables created successfully
+2025-07-10 22:49:49 - src.allocate - INFO - adicionar_restricoes_lp:248 - Adding restraints for problem optimization...
+2025-07-10 22:49:49 - src.allocate - INFO - adicionar_restricoes_lp:299 - All constraints added successfully
+2025-07-10 22:49:49 - src.allocate - INFO - definir_objetivo_lp:305 - Defining objective problem optimization...
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:432 - Solving LP problem...
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:436 - LP solver status: Optimal
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:439 - Optimal solution found
+2025-07-10 22:49:49 - src.allocate - INFO - extrair_resultados_lp:316 - Extracting optimized values...
+2025-07-10 22:49:49 - src.allocate - INFO - extrair_resultados_lp:381 - Displaying Linear Programming results for final user
+2025-07-10 22:49:49 - src.allocate - INFO - extrair_resultados_lp:400 - Linear Programming results displayed successfully
+2025-07-10 22:49:49 - src.allocate - INFO - otimizar_aporte_lp:444 - LP optimization completed successfully
+2025-07-10 22:49:49 - src.simulator - INFO - __init__:15 - Initializing PortfolioSimulator
+2025-07-10 22:49:49 - src.simulator - INFO - __init__:33 - PortfolioSimulator initialized with capital: R$ 2,500.00
+2025-07-10 22:49:49 - src.simulator - INFO - simular:423 - Starting portfolio simulation for 24 months
+2025-07-10 22:49:49 - src.simulator - INFO - obter_dados_historicos:115 - Getting Historical Ticker Prices for 24 months
+2025-07-10 22:49:49 - src.simulator - INFO - obter_dados_historicos:119 - Using custom end date: 2025-05-01
+2025-07-10 22:49:49 - src.simulator - INFO - obter_dados_historicos:125 - Data collection period: 2023-05-12 to 2025-05-01
+2025-07-10 22:49:49 - src.simulator - INFO - mapear_tickers:39 - Mapping portfolio tickers...
+2025-07-10 22:49:49 - src.simulator - INFO - mapear_tickers:58 - Ticker mapping completed: 11 fixed income, 42 BR stocks, 10 US stocks
+2025-07-10 22:49:49 - src.simulator - INFO - obter_dados_historicos:130 - Fetching USD/BRL exchange rate
+2025-07-10 22:49:50 - src.simulator - INFO - obter_dados_historicos:135 - USD/BRL data collected: 511 records
+2025-07-10 22:49:50 - src.simulator - INFO - obter_dados_historicos:141 - Starting data collection for 61 tickers
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:65 - Getting SELIC Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:77 - SELIC data processed successfully: 25 monthly factors
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:65 - Getting SELIC Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:77 - SELIC data processed successfully: 25 monthly factors
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:65 - Getting SELIC Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:77 - SELIC data processed successfully: 25 monthly factors
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:65 - Getting SELIC Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:77 - SELIC data processed successfully: 25 monthly factors
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:65 - Getting SELIC Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:50 - src.simulator - INFO - _selic_fator_mensal:77 - SELIC data processed successfully: 25 monthly factors
+2025-07-10 22:49:50 - src.simulator - INFO - _ipca_fator_mensal:85 - Getting IPCA Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:51 - src.simulator - INFO - _ipca_fator_mensal:97 - IPCA data processed successfully: 25 monthly factors
+2025-07-10 22:49:51 - src.simulator - INFO - _ipca_fator_mensal:85 - Getting IPCA Index from 2023-05-12 to 2025-05-01
+2025-07-10 22:49:51 - src.simulator - INFO - _ipca_fator_mensal:97 - IPCA data processed successfully: 25 monthly factors
+2025-07-10 22:50:08 - src.simulator - INFO - obter_dados_historicos:203 - Historical data collection completed: 61 tickers processed
+2025-07-10 22:50:08 - src.simulator - INFO - simular:432 - Historical data obtained for 61 tickers
+2025-07-10 22:50:08 - src.simulator - INFO - simular:444 - Initial portfolio value: R$ 296,614.42
+2025-07-10 22:50:08 - src.simulator - INFO - simular:455 - Starting monthly simulation loop
+2025-07-10 22:50:08 - src.simulator - INFO - simular:457 - Processing month 1/24: 2023-08-01
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 1
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,411.68 invested, R$ 1,088.32 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 1
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 3 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - simular:457 - Processing month 2/24: 2023-09-01
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 2
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 28 assets bought, R$ 1,391.46 invested, R$ 1,108.54 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 2
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 3 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - simular:457 - Processing month 3/24: 2023-10-01
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 3
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 27 assets bought, R$ 1,389.02 invested, R$ 1,110.98 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 3
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - simular:457 - Processing month 4/24: 2023-11-01
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 4
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 27 assets bought, R$ 1,356.79 invested, R$ 1,143.21 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 4
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - simular:457 - Processing month 5/24: 2023-12-01
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 5
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,366.37 invested, R$ 1,133.63 leftover
+2025-07-10 22:50:08 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 5
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 2 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 6/24: 2024-01-01
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 6
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 24 assets bought, R$ 1,374.65 invested, R$ 1,125.35 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 6
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 5 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 7/24: 2024-02-01
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 7
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 24 assets bought, R$ 1,361.17 invested, R$ 1,138.83 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 7
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 1 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 8/24: 2024-03-01
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 8
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 23 assets bought, R$ 1,341.21 invested, R$ 1,158.79 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 8
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 2 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 9/24: 2024-04-01
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 9
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 22 assets bought, R$ 1,319.10 invested, R$ 1,180.90 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 9
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 10/24: 2024-05-01
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 10
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 24 assets bought, R$ 1,331.63 invested, R$ 1,168.37 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 10
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:09 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 2 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:09 - src.simulator - INFO - simular:457 - Processing month 11/24: 2024-06-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 11
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,327.31 invested, R$ 1,172.69 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 11
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 3 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - simular:457 - Processing month 12/24: 2024-07-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 12
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,306.90 invested, R$ 1,193.10 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 12
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 2 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - simular:457 - Processing month 13/24: 2024-08-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 13
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 24 assets bought, R$ 1,295.24 invested, R$ 1,204.76 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 13
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - simular:457 - Processing month 14/24: 2024-09-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 14
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,284.74 invested, R$ 1,215.26 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 14
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 5 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - simular:457 - Processing month 15/24: 2024-10-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 15
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,253.09 invested, R$ 1,246.91 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 15
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 5 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - simular:457 - Processing month 16/24: 2024-11-01
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 16
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 25 assets bought, R$ 1,283.10 invested, R$ 1,216.90 leftover
+2025-07-10 22:50:10 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 16
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - simular:457 - Processing month 17/24: 2024-12-01
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 17
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,296.31 invested, R$ 1,203.69 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 17
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - simular:457 - Processing month 18/24: 2025-01-01
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 18
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,289.08 invested, R$ 1,210.92 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 18
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 5 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - simular:457 - Processing month 19/24: 2025-02-01
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 19
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,311.17 invested, R$ 1,188.83 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 19
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - simular:457 - Processing month 20/24: 2025-03-01
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 20
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,292.20 invested, R$ 1,207.80 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 20
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 3 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - simular:457 - Processing month 21/24: 2025-04-01
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 21
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,287.08 invested, R$ 1,212.92 leftover
+2025-07-10 22:50:11 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 21
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 1 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - simular:457 - Processing month 22/24: 2025-05-01
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 22
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,221.71 invested, R$ 1,278.29 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 22
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - simular:457 - Processing month 23/24: 2025-06-01
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 23
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,197.87 invested, R$ 1,302.13 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 23
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 4 assets bought, R$ 2,500.00 invested, R$ -0.00 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - simular:457 - Processing month 24/24: 2025-07-01
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:208 - Strategy 1: Asset by Rebalancing Portfolio - Month 24
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_deficit:243 - Deficit strategy completed: 26 assets bought, R$ 1,210.29 invested, R$ 1,289.71 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:248 - Strategy 2: Asset by Linear Programming Portfolio optimization - Month 24
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:341 - Optimization solved successfully
+2025-07-10 22:50:12 - src.simulator - INFO - _aporte_po:372 - PO strategy completed: 3 assets bought, R$ 2,500.00 invested, R$ 0.00 leftover
+2025-07-10 22:50:12 - src.simulator - INFO - obter_df_aportes:418 - Detailed contributions dataframe created with 726 records
